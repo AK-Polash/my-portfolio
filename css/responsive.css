@@ -1,0 +1,356 @@
+/* Responsive Designs: */
+
+/****************************************** x-small ******************************************/
+@media (min-width: 260px) and (max-width: 575.98px) {
+    .logo_color {
+        font-size: 26px;
+    }
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #222;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+        left: -100%;
+        transition: all linear .3s;
+    }
+    .navbar-nav.my_canvas{
+        left: 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 16px 0px;
+        font-size: 15px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:focus{
+        background-color: #333;
+        color: crimson;
+        border-radius: 6px;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        -ms-border-radius: 6px;
+        -o-border-radius: 6px;
+    }
+    .sticky_nav .navbar-nav .nav-link:hover, .sticky_nav .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+        color: crimson;
+    }
+    #banner .banner_content .text-1 {
+        font-size: 15px;
+    }
+    #banner .banner_content .text-2 {
+        font-size: 42px;
+        line-height: 1.3;
+    }
+    #banner .banner_content .text-3 {
+        font-size: 20px;
+    }
+    #banner .banner_content .link_btn {
+        font-size: 16px;
+        padding: 7px 16px;
+    }
+    #banner .mobile_hidden{
+        display: none;
+    }
+    .title h2 {
+        font-size: 24px;
+        margin-bottom: 40px;
+    }
+    .title h2::before {
+        width: 140px;
+        height: 2px;
+        bottom: 7px;
+    }
+    .title h2::after {
+        font-size: 16px;
+        bottom: 0px;
+    }
+    #about .about_right .text {
+        font-size: 17px;
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+    #about .about_right p {
+        font-size: 14px;
+    }
+    #about .about_right a {
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    #services .card .box i {
+        font-size: 30px;
+    }
+    #services .card .box .text {
+        font-size: 20px;
+    }
+    #services .card .box p {
+        font-size: 14px;
+    }
+    .title .heading_skills {
+        margin-bottom: 40px;
+    }
+    #skills .skills_left .text {
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+    #skills .skills_left p {
+        font-size: 14px;
+    }
+    #skills .skills_left a{
+        font-size: 16px;
+        padding: 5px 10px;
+    }
+    #skills .skills_right {
+        margin-top: 30px;
+    }
+    .skills_right .progress_items .single-progressbar .title {
+        font-size: 15px;
+    }
+    #team .slick_team .card_team .box_team .text {
+        font-size: 18px;
+    }
+    #team .slick_team .card_team .box_team p {
+        font-size: 14px;
+    }
+    .title .heading_team {
+        margin-bottom: 40px;
+    }
+    #contact .contact_left .text {
+        font-size: 17px;
+        margin-bottom: 6px;
+    }
+    #contact .contact_left p {
+        font-size: 14px;
+    }
+    .contact_left .icons .item_add{
+        font-size: 13px;
+    }
+    .contact_left .icons .item_add i {
+        font-size: 16px;
+    }
+    .contact_left .icons .item_add .info {
+        margin-left: 15px;
+    }
+    #contact .follow_me a i {
+        width: 28px;
+        height: 28px;
+        line-height: 28px;
+        font-size: 12px;
+        margin: 0 5px;
+    }
+    #contact .mobile_padding{
+        padding-top: 20px;
+    }
+    #contact .contact_right form .fields {
+        height: 40px;
+        margin-bottom: 8px;
+    }
+    #contact .contact_right .text {
+        font-size: 17px;
+    }
+    #contact .contact_right form .fields input, #contact .contact_right form .message textarea{
+        font-size: 12px;
+    }
+    #contact .contact_right form .message {
+        height: 65px;
+        margin-bottom: 12px;
+    }
+    #contact .contact_right form .submit_btn input {
+        width: 110px !important;
+        height: 35px;
+        font-size: 13px;
+    }
+    .scroll_btn {
+        width: 34px;
+        height: 36px;
+        line-height: 36px;
+        font-size: 24px;
+        bottom: 70px !important;
+        right: 10px;
+    }
+    section{
+        padding: 80px 0px;
+    }
+}
+
+/****************************************** sm ******************************************/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #222;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+        left: -100%;
+        transition: all linear .3s;
+    }
+    .navbar-nav.my_canvas{
+        left: 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 20px 0px;
+        font-size: 18px;
+        transition: all .3s ease;
+        -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+        -ms-transition: all .3s ease;
+        -o-transition: all .3s ease;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:focus{
+        background-color: #333;
+        color: crimson;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+    .sticky_nav .navbar-nav .nav-link:hover, .sticky_nav .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+        color: crimson;
+    }
+    #banner .banner_content .text-1 {
+        font-size: 17px;
+    }
+    #banner .banner_content .text-2 {
+        font-size: 62px;
+    }
+    #banner .banner_content .text-3 {
+        font-size: 25px;
+    }
+    #banner .banner_content .link_btn {
+        font-size: 18px;
+        padding: 8px 20px;
+        margin-top: 40px;
+    }
+    #about .about_left img {
+        height: 340px;
+        width: 340px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    #about .about_right .text{
+        margin-top: 30px;
+    }
+    #about .about_right a{
+        font-size: 17px;
+        padding: 7px 14px;
+    }
+    #services .card .box .text {
+        font-size: 23px;
+    }
+    #services .card .box p {
+        font-size: 14px;
+    }
+    #services .card .box i {
+        font-size: 38px;
+    }
+    .title .heading_skills {
+        margin-bottom: 60px;
+    }
+    #skills .skills_left .text {
+        margin-top: 10px;
+    }
+    #skills .skills_left a{
+        font-size: 17px;
+        padding: 7px 14px;
+    }
+    #skills .skills_right {
+        margin-top: 40px;
+    }
+    #contact .contact_right form .message {
+        height: 105px;
+    }
+    #contact .contact_right form .submit_btn input {
+        width: 145px !important;
+        height: 44px;
+        font-size: 17px;
+        flex-wrap: nowrap;
+    }
+    #contact .mobile_padding{
+        padding-top: 3rem;
+    }
+}
+
+/****************************************** md ******************************************/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: center;
+        width: 100%;
+        height: 100vh;
+        background-color: #222;
+        justify-content: center;
+        position: absolute;
+        top: 0px;
+        left: -100%;
+        transition: all linear .3s;
+    }
+    .navbar-nav.my_canvas{
+        left: 0px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding: 22px 0px;
+        font-size: 20px;
+    }
+    .navbar-expand-lg .navbar-nav .nav-link:focus{
+        background-color: #333;
+        color: crimson;
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -ms-border-radius: 8px;
+        -o-border-radius: 8px;
+    }
+    .sticky_nav .navbar-nav .nav-link:hover, .sticky_nav .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link{
+        color: crimson;
+    }
+    #about .about_right .text {
+        margin-top: 35px;
+    }
+    #about .about_left img {
+        height: 340px;
+        width: 340px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+    }
+    #about .about_right a {
+        padding: 8px 16px;
+    }
+    #skills .skills_left .text {
+        margin-top: 20px;
+    }
+    #skills .skills_right {
+        margin-top: 40px;
+    }
+    #contact .mobile_padding{
+        padding-top: 1.5rem;
+    }
+}
+    
+/****************************************** lg ******************************************/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .title .heading_skills {
+        margin-bottom: 60px;
+    }
+    #team .slick_team .card_team .box_team .text {
+        font-size: 18px;
+    }
+    #team .slick_team .card_team .box_team p {
+        font-size: 14px;
+    }
+}
+
+/****************************************** xl ******************************************/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
