@@ -88,35 +88,17 @@ $(function () {
 
 // progressbar skills:
 $(function () {
-  $(".web_design").rProgressbar({
+  $(".react_js").rProgressbar({
     percentage: 90,
-    fillBackgroundColor: "#1ABC9C",
+    fillBackgroundColor: "#087EA4",
     backgroundColor: "#dcdde1",
     borderRadius: "0px",
     height: "8px",
     width: "100%",
     duration: 1600,
   });
-  $(".web_development").rProgressbar({
-    percentage: 95,
-    fillBackgroundColor: "#2ECC71",
-    backgroundColor: "#dcdde1",
-    borderRadius: "0px",
-    height: "8px",
-    width: "100%",
-    duration: 1600,
-  });
-  $(".c_security").rProgressbar({
+  $(".next_js").rProgressbar({
     percentage: 60,
-    fillBackgroundColor: "#9B59B6",
-    backgroundColor: "#dcdde1",
-    borderRadius: "0px",
-    height: "8px",
-    width: "100%",
-    duration: 1600,
-  });
-  $(".photography").rProgressbar({
-    percentage: 55,
     fillBackgroundColor: "#34495E",
     backgroundColor: "#dcdde1",
     borderRadius: "0px",
@@ -124,8 +106,26 @@ $(function () {
     width: "100%",
     duration: 1600,
   });
-  $(".graphic_design").rProgressbar({
-    percentage: 70,
+  $(".redux").rProgressbar({
+    percentage: 58,
+    fillBackgroundColor: "#9B59B6",
+    backgroundColor: "#dcdde1",
+    borderRadius: "0px",
+    height: "8px",
+    width: "100%",
+    duration: 1600,
+  });
+  $(".node_js").rProgressbar({
+    percentage: 63,
+    fillBackgroundColor: "#2ECC71",
+    backgroundColor: "#dcdde1",
+    borderRadius: "0px",
+    height: "8px",
+    width: "100%",
+    duration: 1600,
+  });
+  $(".express").rProgressbar({
+    percentage: 75,
     fillBackgroundColor: "#F1C40F",
     backgroundColor: "#dcdde1",
     borderRadius: "0px",
@@ -133,9 +133,27 @@ $(function () {
     width: "100%",
     duration: 1600,
   });
-  $(".digital_marketing").rProgressbar({
-    percentage: 50,
+  $(".mongodb").rProgressbar({
+    percentage: 85,
+    fillBackgroundColor: "#1ABC9C",
+    backgroundColor: "#dcdde1",
+    borderRadius: "0px",
+    height: "8px",
+    width: "100%",
+    duration: 1600,
+  });
+  $(".firebase").rProgressbar({
+    percentage: 70,
     fillBackgroundColor: "#ed1c24",
+    backgroundColor: "#dcdde1",
+    borderRadius: "0px",
+    height: "8px",
+    width: "100%",
+    duration: 1600,
+  });
+  $(".react_native").rProgressbar({
+    percentage: 50,
+    fillBackgroundColor: "#4097FF",
     backgroundColor: "#dcdde1",
     borderRadius: "0px",
     height: "8px",

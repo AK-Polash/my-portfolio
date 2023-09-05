@@ -30,7 +30,7 @@ p {
 }
 section {
   padding: 100px 0px;
-  /* min-height: 100vh; */
+  min-height: 100vh;
 }
 /* All Common CSS ends */
 
