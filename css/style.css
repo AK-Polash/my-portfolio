@@ -281,9 +281,10 @@ section {
 .nav-tabs {
   border: none;
 }
-.navbar-light .navbar-nav .nav-link:focus {
-  color: lightsalmon;
+.nav-tabs .nav-link {
+  border: none !important;
 }
+
 .sticky_nav {
   padding: 10px 0px;
   background-color: crimson;
