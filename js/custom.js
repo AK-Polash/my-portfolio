@@ -164,7 +164,7 @@ $(function () {
 
 // slick team:
 $(function () {
-  $(".slick_team").slick({
+  $(".slick_portfolio").slick({
     prevArrow: true,
     nextArrow: true,
     autoplay: true,

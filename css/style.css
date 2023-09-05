@@ -607,8 +607,8 @@ section {
 /* skills right end */
 /* ************************************** skills area end *************************************** */
 
-/* ************************************** team area start *************************************** */
-#team {
+/* ************************************** portfolio area start *************************************** */
+#portfolio {
   width: 100%;
   font-family: "Poppins", sans-serif;
   background-color: #111;
@@ -626,10 +626,10 @@ section {
 }
 
 /* slick team start */
-#team .slick_team {
+#portfolio .slick_portfolio {
   width: 100%;
 }
-#team .slick_team .card_team {
+#portfolio .slick_portfolio .card_team {
   color: #fff;
   background: #222;
   border-radius: 6px;
@@ -639,34 +639,34 @@ section {
   transition: all 0.3s ease;
 }
 /* center mode start */
-#team .slick-slide {
+#portfolio .slick-slide {
   margin: 0px 12px;
   /* opacity: 0.8; */
 }
-#team .slick-current {
+#portfolio .slick-current {
   opacity: 1;
 }
 /* .slick-center{
     background-color: #fff;
 } */
-/* #team .slick-current .card_team {
+/* #portfolio .slick-current .card_team {
   background-color: crimson;
 } */
-/* #team .slick-current .card_team .box_team img {
+/* #portfolio .slick-current .card_team .box_team img {
   border: 5px solid white !important;
 } */
 /* center mode end */
-#team .slick_team .card_team:hover {
+#portfolio .slick_portfolio .card_team:hover {
   background: crimson;
 }
-#team .slick_team .card_team .box_team {
+#portfolio .slick_portfolio .card_team .box_team {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   transition: all 0.3s ease;
 }
-#team .slick_team .card_team .box_team:hover {
+#portfolio .slick_portfolio .card_team .box_team:hover {
   transform: scale(1.05);
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
@@ -677,7 +677,7 @@ section {
   width: 100%;
   height: 200px;
 }
-#team .slick_team .card_team .box_team img {
+#portfolio .slick_portfolio .card_team .box_team img {
   margin-top: 15px;
   height: 220px;
   width: 100%;
@@ -686,30 +686,30 @@ section {
   border: 5px solid crimson;
   transition: all 0.3s ease;
 }
-#team .slick_team .card_team:hover .box_team img {
+#portfolio .slick_portfolio .card_team:hover .box_team img {
   border: 5px solid #fff;
 }
-#team .slick_team .card_team .box_team .text {
+#portfolio .slick_portfolio .card_team .box_team .text {
   color: #dcdde1;
   font-size: 25px;
   font-weight: 500;
   margin: 10px 0 7px 0;
 }
-#team .slick_team .card_team .box_team p {
+#portfolio .slick_portfolio .card_team .box_team p {
   color: #dcdde1;
   font-size: 14px;
   text-align: justify;
 }
-#team .slick-dots {
+#portfolio .slick-dots {
   display: flex !important;
   justify-content: center;
   margin-top: 20px;
 }
-#team .slick-dots li {
+#portfolio .slick-dots li {
   margin: 0px 5px;
   position: relative;
 }
-#team .slick-dots li button {
+#portfolio .slick-dots li button {
   color: transparent;
   width: 13px;
   height: 13px;
@@ -725,7 +725,7 @@ section {
   -ms-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
 }
-#team .slick-dots .slick-active button {
+#portfolio .slick-dots .slick-active button {
   width: 50px;
   border-radius: 20px;
   background-color: crimson;
@@ -735,7 +735,7 @@ section {
   -o-border-radius: 20px;
 }
 /* slick team end */
-/* ************************************** team area end *************************************** */
+/* ************************************** portfolio area end *************************************** */
 
 /* ************************************** contact area start *************************************** */
 #contact {
