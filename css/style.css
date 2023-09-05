@@ -30,6 +30,7 @@ p {
 }
 section {
   padding: 100px 0px;
+  /* min-height: 100vh; */
 }
 /* All Common CSS ends */
 
@@ -508,7 +509,9 @@ section {
   margin: 10px 0px 7px 0px;
 }
 #services .card .box p {
+  padding-top: 3px;
   color: #fff;
+  text-align: justify;
 }
 /* ************************************** services area end *************************************** */
 
