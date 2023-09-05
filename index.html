@@ -105,7 +105,7 @@
                 class="link_btn wow fadeInLeft"
                 data-wow-duration="1s"
                 data-wow-delay=".3s"
-                href="#"
+                href="https://www.linkedin.com/in/md-ashraf-khan-578269236/"
                 >Hire me</a
               >
             </div>
@@ -619,7 +619,6 @@
                             name="subject"
                             id="subject"
                             placeholder="Subject"
-                            required
                           />
                         </div>
                       </div>
@@ -697,6 +696,8 @@
     <script src="js/custom.js"></script>
     <script>
       var form = document.getElementById("contactForm");
+      var email = document.getElementById("email");
+
       async function handleSubmit(event) {
         event.preventDefault();
         var data = new FormData(event.target);
@@ -718,6 +719,9 @@
                     .map((error) => error["message"])
                     .join(", ");
                   alert(errorMsg);
+                  if (data.errors[0].field === "email") {
+                    email.focus();
+                  }
                 } else {
                   alert("There was a problem submitting your form");
                 }
