@@ -712,6 +712,7 @@
             if (response.ok) {
               alert("Thanks for your submission!");
               form.reset();
+              email.blur();
             } else {
               response.json().then((data) => {
                 if (Object.hasOwn(data, "errors")) {
