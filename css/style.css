@@ -797,38 +797,7 @@ section {
 #contact {
   width: 100%;
 }
-#contact .follow_me {
-  width: 100%;
-}
-#contact .follow_me a i {
-  width: 35px;
-  height: 35px;
-  line-height: 35px;
-  text-align: center;
-  background-color: crimson;
-  color: #fff;
-  font-size: 16px;
-  margin: 0 5px;
-  border-radius: 50%;
-  border: 1px solid crimson;
-  transition: all 0.3s ease;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-  -webkit-transition: all 0.3s ease;
-  -moz-transition: all 0.3s ease;
-  -ms-transition: all 0.3s ease;
-  -o-transition: all 0.3s ease;
-}
-#contact .follow_me a .extra_margin {
-  margin-left: 0px !important;
-}
-#contact .follow_me a i:hover {
-  background-color: transparent;
-  color: crimson;
-  border: 1px solid crimson;
-}
+
 /* follow end */
 
 /* contact_left end */
@@ -908,6 +877,40 @@ section {
 /* ************************************** follow area end *************************************** */
 
 /* ************************************** footer area start *************************************** */
+.follow_me {
+  width: 100%;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+.follow_me a i {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  text-align: center;
+  background-color: crimson;
+  color: #fff;
+  font-size: 26px;
+  margin: 0 15px;
+  border-radius: 50%;
+  border: 2px solid crimson;
+  transition: all 0.3s ease;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  -webkit-transition: all 0.3s ease;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+}
+
+.follow_me a i:hover {
+  background-color: transparent;
+  color: crimson;
+  border: 2px solid crimson;
+}
+
 footer {
   width: 100%;
   background-color: #111;
