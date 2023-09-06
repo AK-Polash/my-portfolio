@@ -133,6 +133,9 @@ section {
   -ms-transition: all linear 0.22s;
   -o-transition: all linear 0.22s;
 }
+.navbar-nav {
+  flex-wrap: nowrap;
+}
 .navbar-light .navbar-toggler {
   border-color: transparent;
   padding: 0px;

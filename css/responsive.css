@@ -20,7 +20,7 @@
     left: 0px;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 16px 0px;
+    padding: 10px 0px;
     font-size: 15px;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -198,7 +198,7 @@
     left: 0px;
   }
   .navbar-expand-lg .navbar-nav .nav-link {
-    padding: 20px 0px;
+    padding: 8px 0px;
     font-size: 18px;
     transition: all 0.3s ease;
     -webkit-transition: all 0.3s ease;
@@ -224,7 +224,7 @@
     font-size: 17px;
   }
   #banner .banner_content .text-2 {
-    font-size: 62px;
+    font-size: 48px;
   }
   #banner .banner_content .text-3 {
     font-size: 25px;
@@ -232,7 +232,7 @@
   #banner .banner_content .link_btn {
     font-size: 18px;
     padding: 8px 20px;
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
   #about .about_left img {
     height: 340px;
@@ -344,6 +344,10 @@
   #contact .mobile_padding {
     padding-top: 1.5rem;
   }
+  #banner .banner_content .text-2 {
+    font-size: 62px;
+    line-height: 1.3;
+  }
 }
 
 /****************************************** lg ******************************************/
@@ -356,6 +360,10 @@
   }
   #portfolio .slick_portfolio .card_team .box_team p {
     font-size: 14px;
+  }
+  #banner .banner_content .text-2 {
+    font-size: 65px;
+    line-height: 1.3;
   }
 }
 
