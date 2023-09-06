@@ -623,7 +623,7 @@
                 <div class="col-lg-12">
                   <form
                     id="contactForm"
-                    action="https://formspree.io/f/mvojrbrk"
+                    action="https://formspree.io/f/meqbkrwl"
                     method="POST"
                   >
                     <div class="row">
@@ -633,7 +633,7 @@
                             type="text"
                             name="name"
                             id="name"
-                            placeholder="Name"
+                            placeholder="enter your name"
                             required
                           />
                         </div>
@@ -644,7 +644,7 @@
                             type="text"
                             name="email"
                             id="email"
-                            placeholder="Email"
+                            placeholder="enter your email"
                             required
                           />
                         </div>
@@ -669,7 +669,7 @@
                             name="message"
                             cols="30"
                             rows="10"
-                            placeholder="Message.."
+                            placeholder="enter your message.."
                             required
                           ></textarea>
                         </div>
@@ -752,6 +752,7 @@
               alert("Thanks for your submission!");
               form.reset();
               email.blur();
+              email.style.borderColor = "lightgray";
             } else {
               response.json().then((data) => {
                 if (Object.hasOwn(data, "errors")) {
@@ -761,6 +762,7 @@
                   alert(errorMsg);
                   if (data.errors[0].field === "email") {
                     email.focus();
+                    email.style.borderColor = "red";
                   }
                 } else {
                   alert("There was a problem submitting your form");
@@ -774,6 +776,9 @@
       }
 
       form.addEventListener("submit", handleSubmit);
+      email.addEventListener("input", (e) => {
+        email.style.borderColor = "lightgray";
+      });
     </script>
   </body>
 </html>
