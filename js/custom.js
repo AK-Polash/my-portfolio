@@ -148,15 +148,15 @@ $(document).ready(function () {
       width: "100%",
       duration: 1600,
     });
-    $(".redux").rProgressbar({
-      percentage: 58,
-      fillBackgroundColor: "#9B59B6",
-      backgroundColor: "#dcdde1",
-      borderRadius: "0px",
-      height: "8px",
-      width: "100%",
-      duration: 1600,
-    });
+    // $(".redux").rProgressbar({
+    //   percentage: 58,
+    //   fillBackgroundColor: "#9B59B6",
+    //   backgroundColor: "#dcdde1",
+    //   borderRadius: "0px",
+    //   height: "8px",
+    //   width: "100%",
+    //   duration: 1600,
+    // });
     $(".node_js").rProgressbar({
       percentage: 63,
       fillBackgroundColor: "#2ECC71",
