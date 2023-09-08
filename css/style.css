@@ -630,14 +630,12 @@ section {
 }
 
 /* slick team start */
-#portfolio .slick_portfolio {
-  width: 100%;
-}
 #portfolio .slick_portfolio .card_team {
   color: #fff;
   background: #222;
   border-radius: 6px;
   padding: 20px 25px;
+  margin-bottom: 24px;
   text-align: center;
   overflow: hidden;
   transition: all 0.3s linear;
