@@ -30,7 +30,7 @@
   }
   .navbar-expand-lg .navbar-nav .nav-link:focus {
     background-color: #333;
-    color: crimson;
+    color: var(--primary-color);
     border-radius: 6px;
     -webkit-border-radius: 6px;
     -moz-border-radius: 6px;
@@ -40,7 +40,7 @@
   .sticky_nav .navbar-nav .nav-link:hover,
   .sticky_nav .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .show > .nav-link {
-    color: crimson;
+    color: var(--primary-color);
   }
   #banner .banner_content .text-1 {
     font-size: 15px;
@@ -208,7 +208,7 @@
   }
   .navbar-expand-lg .navbar-nav .nav-link:focus {
     background-color: #333;
-    color: crimson;
+    color: var(--primary-color);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -218,7 +218,7 @@
   .sticky_nav .navbar-nav .nav-link:hover,
   .sticky_nav .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .show > .nav-link {
-    color: crimson;
+    color: var(--primary-color);
   }
   #banner .banner_content .text-1 {
     font-size: 17px;
@@ -308,7 +308,7 @@
   }
   .navbar-expand-lg .navbar-nav .nav-link:focus {
     background-color: #333;
-    color: crimson;
+    color: var(--primary-color);
     border-radius: 8px;
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -318,7 +318,7 @@
   .sticky_nav .navbar-nav .nav-link:hover,
   .sticky_nav .navbar-nav .nav-link.active,
   .navbar-light .navbar-nav .show > .nav-link {
-    color: crimson;
+    color: var(--primary-color);
   }
   #about .about_right .text {
     margin-top: 35px;
