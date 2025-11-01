@@ -101,12 +101,18 @@ $(document).ready(function () {
       typeSpeed: 50,
       backSpeed: 60,
       loop: false,
+      onComplete: function (self) {
+        self.cursor.remove();
+      },
     });
     var typed = new Typed(".typing-2", {
       strings: ["Web Developer"],
       typeSpeed: 50,
       backSpeed: 60,
       loop: false,
+      onComplete: function (self) {
+        self.cursor.remove();
+      },
     });
   });
 
