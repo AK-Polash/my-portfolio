@@ -84,6 +84,12 @@
     font-size: 16px;
     padding: 5px 10px;
   }
+  #about .about_left img {
+    height: 230px;
+    width: 230px;
+    display: block;
+    margin: 0 auto;
+  }
   #services .card .box i {
     font-size: 30px;
   }
@@ -235,13 +241,8 @@
     /* margin-top: 40px; */
   }
   #about .about_left img {
-    height: 340px;
-    width: 340px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    height: 240px;
+    width: 240px;
   }
   #about .about_right .text {
     margin-top: 30px;
@@ -324,13 +325,8 @@
     margin-top: 35px;
   }
   #about .about_left img {
-    height: 340px;
-    width: 340px;
-    border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    -ms-border-radius: 50%;
-    -o-border-radius: 50%;
+    height: 260px;
+    width: 260px;
   }
   #about .about_right a {
     padding: 8px 16px;
@@ -369,5 +365,4 @@
 
 /****************************************** xl ******************************************/
 @media (min-width: 1200px) and (max-width: 1399.98px) {
-  
 }
